@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#panier {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.article .nom {
+    flex-grow: 1;
+}
+.article .quantite {
+    width: 40px;
+    text-align: center;
+}
+.article .prix {
+    width: 60px;
+    text-align: right;
+}
+.coeur {
+    color: grey;
+    cursor: pointer;
+}
+#total {
+    font-weight: bold;
+}
+#ajout-article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#ajout-article input[type="text"], #ajout-article input[type="number"] {
+    width: 100px;
+    padding: 5px;
+}
+#ajout-article button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
